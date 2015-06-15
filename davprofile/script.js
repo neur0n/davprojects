@@ -57,7 +57,7 @@ var cover = $('#field_id2 .field_uneditable').text();
 		$('.module').first().hide();
 		var name = $('.main-head .h3 span[style]').first();
 		$('#profile-advanced-layout').prepend(
-		    '<div class="usr-options">'+name+'</div>' +
+		    '<div class="usr-options">' + name + '</div>' +
 		    '<div class="davprofile">' +
 		    '<div class="profile-avatar"><img src="' + avt + '" />'+
 		    '<div class="boxInfo">' +
@@ -92,6 +92,6 @@ var cover = $('#field_id2 .field_uneditable').text();
 		    '</div>' +
 		    '</div>' +
 		    '</div>'
-		    );
+		);
 	}
 }
