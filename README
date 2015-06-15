@@ -1,6 +1,5 @@
-<hr>
-  <h1>List of projects</h1>
-<ul>
-  <li>Undefined</li>
-  <li>Defined</li>
-</ul>
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
