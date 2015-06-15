@@ -1,0 +1,91 @@
+#profile-advanced-left {
+    margin-right: 0!important;
+    margin-top: 32.5%;
+    text-align: center;
+}
+.profile-avatar > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.davprofile {
+    display: block;
+    background: url("http://i.imgur.com/yOfKomF.jpg") center / cover;
+    position: absolute;
+    width: 100%;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    height: 350px;
+    padding: 10px 0px;
+}
+#profile-advanced-right{display: none!important}
+#profile-advanced-layout {margin-right: 0 !important;}
+#profile-advanced-details > .main-head {display: none!important;}
+#profile-advanced-avatar .module, #profile-advanced-details, #profile-advanced-points .module, #profile-advanced-reputation .module {margin-right: 0 !important;}
+
+.profile-avatar {
+  float: left;
+  background: rgba(255, 255, 255, 1);
+  padding: 3px;
+  margin: 0 6.5%;
+  padding: 5px;
+  border-radius: 3px;
+}
+.boxInfo {
+  padding: 10px;
+}
+.sReputation {
+  background-color: rgb(58, 186, 69);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+.sPoints {
+  background-color: rgb(58, 118, 186);
+  margin: 10px auto;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+.sReputation > span, .sPoints > span {
+  font-weight: bold;
+  display: block;
+}
+#tabs ul li a {
+  background-color: #333;
+  border: none;
+  float: left;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 2.5em;
+  padding: 0 1.5em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+#tabs ul li a:hover {
+  background-color: #222;
+}
+#tabs ul li.activetab a:hover {
+  background-color: #222;
+}
+.usr-options {
+  background-color: rgb(58, 118, 186);
+  padding: 10px;
+  color: white;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 111;
+  margin-top: -35px!important;
+}
+#tabs ul li.activetab a {
+  background-color: black;
+  color: #f4f9fd;
+  text-decoration: none;
+}
