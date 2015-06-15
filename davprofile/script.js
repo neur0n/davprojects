@@ -10,6 +10,7 @@ var dav = function(version){
 var rep = $('#field_id-14 .field_uneditable').text();
 var coin = $('#field_id-13 .field_uneditable').text();
 var cover = $('#field_id2 .field_uneditable').text();
+$.getScript('https://raw.githubusercontent.com/neur0n/davprojects/master/davprofile/style.css');
 	if(version == 'phpBB3') {
 		console.log('[davProfile] phpBB3 Forum!');
 		var avt = $('div[style] > img').attr('src');
